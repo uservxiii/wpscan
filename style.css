@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body {
+    background-color: #0F335C;
+    min-height: 100vh;
+    color: white;
+
+    /* HAPUS CENTER VERTICAL */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 1000px;
+
+    /* NAIKIN POSISI */
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 48px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+h1 span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 70%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.2);
+    color: white;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ddd;
+}
+
+.terminal {
+    margin-top: 25px;
+    padding: 15px;
+    background: rgba(0,0,0,0.3);
+    border-radius: 6px;
+    text-align: left;
+    white-space: pre-wrap;
+    max-height: 420px;
+    overflow-y: auto;
+}
+
+/* FOOTER TETAP DI BAWAH */
+.footer {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+}
